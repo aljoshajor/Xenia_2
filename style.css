@@ -52,6 +52,11 @@ h2 {
   background-color: #dae0eb;
 }
 
+.header-pic {
+  object-fit: cover;
+  width: 100%;
+}
+
 /*Navbar*/
 .css-container-navbar {
   position: relative;
