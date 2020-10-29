@@ -1,0 +1,258 @@
+@import url(https://use.fontawesome.com/releases/v5.2.0/css/all.css);
+@font-face {
+  src: url(fonts/Vision-Regular.otf);
+  font-family: vision-regular;
+}
+
+@font-face {
+  src: url(fonts/Vision-Thin.otf);
+  font-family: vision-thin;
+}
+
+@font-face {
+  src: url(fonts/Coves Bold_0.otf);
+  font-family: coves-bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb (250, 250, 250);
+  font-family: 'vision-thin', serif;
+  color: #393e46; /*cloud burst*/
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0px;
+}
+
+h1 {
+  color: #393e46; /*cloud burst*/
+  font-family: 'Mulish', sans-serif;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 30px;
+  color: #AF231C; /* Pantone 2350 C */
+  margin-bottom: 0;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-family: coves-bold;
+}
+
+p {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #393e46;
+  padding: 0px 20px;
+}
+
+.header {
+  position: relative;
+}
+
+.header-balken {
+ /* display: flex;*/
+  position: relative;
+  font-weight: bold;
+}
+
+.header-menue {
+  position: absolute;
+  bottom: 10px;
+  left:80px;
+}
+
+
+.header-pic {
+ width: 100%;
+}
+
+
+.list-inline li {
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  font-size: 18px;
+  font-family: vision-regular;
+  font-weight: bold;
+  /*text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);*/
+}
+
+.list-inline li a:hover {
+  color: #ba7967;
+  text-shadow: none;
+}
+
+.space-b-header-main {
+  height: 100px;
+  background-color: white;
+  color: black;
+}
+
+#menue {
+  clear:both;
+ /* position: absolute;
+  bottom: 0;*/
+}
+
+.logo {
+  align-self: flex-end;
+ /* position: absolute;*/
+/*  bottom: 10px;*/
+}
+
+.red-color {
+  color: #AF231C;
+}
+
+.brown-color { /* PANTONE P 35-6 U */
+  color: #b46a51;
+}
+
+.image_circle {
+  border-radius: 50%;
+  padding-top: 10px;
+/*  padding-right: 10px;*/
+  padding-bottom: 10px;
+/*  padding-left: 10px;*/
+  border: black;
+  display: block;
+  width: 50%;
+}
+
+.pic_text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /*padding: 180px 0 0 0; */
+}
+
+
+#xenia-title {
+  margin: 0;
+ /* margin-bottom: 40px;*/
+}
+
+#anker_uebermich {
+  margin-top: 90px;
+}
+
+#anker_leistungen {
+  margin-top: 50px;
+}
+
+#anker_kontakt {
+  margin-top: 50px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.main {
+  padding-left: 40px;
+}
+
+.footer {
+  background-color: #b46a51; /*PANTONE P 35-6 U*/
+  display: block;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 200px;
+}
+
+#überschrift-footer {
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 40px;
+  margin-bottom: 0px !important;
+  font-family: vision-thin;
+}
+
+#footer-impressum {
+  padding-top: 0px;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+  padding-bottom: 0;
+  line-height: 1.0;
+}
+
+#inhalt-impressum {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+#kind1-impressum {
+  position: absolute;
+  left: 40px;
+  font-family: vision-thin;
+  font-size: 16px;
+}
+
+#kind2-impressum {
+  position: absolute;
+  left: 200px;
+  font-family: vision-thin;
+  font-size: 16px;
+}
+
+.blob {
+  width: 200px;
+  height: 200px;
+}
+
+@media (max-width: 960px) {
+  .main .header-balken {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .main .header-balken {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .main .header-balken {
+    width: 300px;
+  }
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*@media only screen and (max-width: 768px) {
+   For mobile phones:
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+*/
+
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
