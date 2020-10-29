@@ -15,6 +15,14 @@
 
 
 /*PANTONE P 35-6 U = #B46A51*/
+.brown-color {
+  color: #B46A51;
+}
+
+.red-color {
+  color: #AF231C;
+}
+
 
 
 html {
@@ -52,7 +60,7 @@ h2 {
 .css-navbar {
   position: absolute;
   bottom: 40px;
-  left: 80px;
+  left: 60px;
   font-weight: bold;
 }
 
