@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Xenia Vitriak</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Mulish:wght@700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!--  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"> -->
+  </head>
+
+  <!-- Header -->
+  <body>
+    <div class="header">
+      <div class="header-balken">
+        <img src="Components/wave-logo.svg" alt="header" class="header-pic">
+      </div>
+    </div>
+
+
+    <!-- Navbar -->
+    <div class="css-container-navbar">
+      <div class="css-navbar">
+        <nav class="navbar navbar-inverse navbar-expand-lg navbar-light bg-grey">
+          <button class="navbar-toggler float:left" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#anker_uebermich">Über mich <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#anker_leistungen">Leistungen <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#anker_kontakt">Kontakt</a>
+              </li>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Slider -->
+    <div id="carouselExampleControls" class="carousel slide css-slider" data-ride="carousel">
+      <div class="carousel-inner">
+       <!--  Carousel item 1 -->
+        <div class="carousel-item active">
+          <div style="display:flex; align-items:center">
+            <div class="col-6 css-col-6">
+              <img class="d-block w-100 image-circle" src="Components/XENIA_CI_PORTRAIT_Freigestellt.png" alt="First slide">
+            </div>
+             <div>
+                <h3><span class="brown-color">Xenia</span> <span class="red-color">Vitriak</span></h3>
+                <p id="xenia-title">Gebärdendolmetscherin für deutsche Gebärdensprache (B.A.)</p>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel item 2 -->
+        <div class="carousel-item">
+          <div style="display:flex; align-items:center; position:relative">
+            <div class="col-6 css-col-6" style="display:flex; flex-direction:column">
+               <h3 style="position:absolute; left:190px; bottom: 40px"><span class="brown-color">Xenia</span> <span class="red-color">Vitriak</span></h3>
+              <p style="margin-left: auto" id="xenia-title">Gebärdendolmetscherin für deutsche Gebärdensprache (B.A.)</p>
+              </div>
+            <div style="display:flex; height: 610px; width: 610px;">
+                <img class="d-block w-70 image-item-2" src="Components/meeting1.jpg" style="border-radius: 10px; object-fit:cover; height:60%; width:60%; display:block; margin:auto;">
+            </div>
+          </div>
+        </div><!--
+        Carousel item 3 -->
+        <div class="carousel-item">
+          <div style="display:flex; align-items:center">
+            <div class="col-6 css-col-6" style="padding-left:0px; height: 610px; width: 610px; display:flex">
+            <img class="d-block w-70" src="Components/meeting2.jpg" style="border-radius: 10px; object-fit:cover; height:60%; width:60%; display:block; margin:auto" alt="Third slide">
+            </div>
+            <div>
+              <h3><span class="brown-color">Xenia</span> <span class="red-color">Vitriak</span></h3>
+              <p id="xenia-title">Gebärdendolmetscherin für deutsche Gebärdensprache (B.A.)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--   Carousel Controls -->
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+    <!--  Main Body -->
+    <div class="main main-text">
+      <h2 id="anker_uebermich">Über mich</h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae repellat vitae commodi at. Fugiat sint quidem magni expedita amet beatae ab cupiditate nostrum aut alias delectus sed repellendus, praesentium sit.
+      </p>
+      <h2 id="anker_leistungen">Leistungen</h2>
+      <p> Ich dolmetsche für Sie von Deutscher Gebärdensprache in Deutsch und Englisch und umgekehrt.
+
+      <p>Meine Einsatzgebiete sind vielfältig:</p>
+          <ul>
+            <li>Bildung (Universität/Hochschule, Schule etc.)</li>
+            <li>Arbeit (Ausbildung, Praktikum, Arbeitsleben)</li>
+            <li>Fort- oder Weiterbildungen</li>
+            <li>Behördengänge</li>
+            <li>Arztbesuche</li>
+            <li>Kultur (Museumsführungen, Theater etc.)</li>
+          </ul>
+      </p>
+      <h2 id="anker_kontakt">Kontakt</h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam accusantium deserunt eum eveniet at tempore eos, maxime. Delectus expedita nesciunt nemo minus, ex quis dolorum soluta quaerat odio labore ducimus?
+      </p>
+      <p>Kontakt aufnehmen</p>
+      <br>
+      <br>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-content">
+      <p>Xenia Vitriak</p>
+      <p>Beskidenstraße 8</p>
+    </div>
+    <div class="footer-content">
+      <p>Tel.: 015905413602</p>
+      <p>Email: xenia.vitriak@googlemail.com</p>
+    </div>
+<!--
+    <img src="Components/wave-footer.svg" alt="footer" width="100%"> -->
+  </div>
+  <!-- JavaScript - Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
+
+
