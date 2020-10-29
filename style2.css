@@ -1,0 +1,99 @@
+@font-face {
+  src: url(fonts/Vision-Regular.otf);
+  font-family: vision-regular;
+}
+
+@font-face {
+  src: url(fonts/Vision-Thin.otf);
+  font-family: vision-thin;
+}
+
+@font-face {
+  src: url(fonts/Coves Bold_0.otf);
+  font-family: coves-bold;
+}
+
+
+/*PANTONE P 35-6 U = #B46A51*/
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main {
+  padding-left: 40px;
+  background-color: white;
+}
+
+h2 {
+  font-size: 30px;
+  color: #AF231C; /* Pantone 2350 C */
+  margin-top: 80px;
+  margin-left: 0;
+}
+
+
+/*#anker_uebermich {
+  margin-top: 90px;
+}*/
+
+/*Header*/
+.header {
+  padding-bottom: 20px;
+  background-color: #dae0eb;
+}
+
+/*Navbar*/
+.css-container-navbar {
+  position: relative;
+}
+
+.css-navbar {
+  position: absolute;
+  bottom: 40px;
+  left: 80px;
+  font-weight: bold;
+}
+
+
+/*Slider/Carousel*/
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+/*.carousel-control-next {
+  position: absolute;
+  left: 90%;
+}*/
+
+.image-circle {
+  border-radius: 50%;
+}
+
+.image-item-2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.css-col-6 {
+  padding: 0;
+  margin: 0;
+}
+
+.css-slider {
+  background-color: #dae0eb;
+}
+
+
+.footer {
+  background: #B46A51;
+  height: 300px;
+  color: black;
+  display: flex;
+}
+
+
+.footer-content {
+  margin: 40px;
+}
