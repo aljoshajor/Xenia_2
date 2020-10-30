@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 @font-face {
   src: url(fonts/Vision-Regular.otf);
   font-family: vision-regular;
@@ -64,7 +68,7 @@ h2 {
 
 .css-navbar {
   position: absolute;
-  bottom: 40px;
+  bottom: 1rem;
   left: 40px;
   font-weight: bold;
 }
