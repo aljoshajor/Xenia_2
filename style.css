@@ -93,6 +93,10 @@ h2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.image-item-3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .css-col-6 {
   padding: 0;
   margin: 0;
@@ -113,4 +117,45 @@ h2 {
 
 .footer-content {
   margin: 40px;
+}
+
+
+/*Responsiveness - Grid*/
+
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/*media queries*/
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
 }
