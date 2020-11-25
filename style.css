@@ -62,15 +62,9 @@ h2 {
 }
 
 /*Navbar*/
-/*.outer-css-container-navbar {
-  position: relative;
-}
 
 .css-container-navbar {
-  position: absolute;
-  bottom: 0.5rem;
-  left: 40px;
-}*/
+}
 
 .css-navbar {
   font-weight: bold;
