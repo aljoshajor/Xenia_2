@@ -72,6 +72,10 @@ h2 {
   background-color: #dae0eb;
 }
 
+#hamburger {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 
 /*Slider/Carousel*/
 .carousel-control-next-icon {
