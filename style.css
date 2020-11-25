@@ -52,8 +52,8 @@ h2 {
 
 /*Header*/
 .header {
-  padding-bottom: 20px;
   background-color: #dae0eb;
+}
 }
 
 .header-pic {
@@ -62,15 +62,19 @@ h2 {
 }
 
 /*Navbar*/
-.css-container-navbar {
+/*.outer-css-container-navbar {
   position: relative;
 }
 
-.css-navbar {
+.css-container-navbar {
   position: absolute;
-  bottom: 1rem;
+  bottom: 0.5rem;
   left: 40px;
+}*/
+
+.css-navbar {
   font-weight: bold;
+  background-color: #dae0eb;
 }
 
 
